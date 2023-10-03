@@ -124,9 +124,9 @@
        <div class = "video">
 
         <!-- insert iframe from youtube -->
-        <video width="400" controls>
-          <source src="https://youtu.be/ojcNcvb1olg?si=L_c3BC9-18Kam8o7" type="video/mp4">
-        </video></div>
+        <iframe width="400px" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="20px">
+
+        </iframe></div>
        <div class = "article">
         <article>
 
@@ -140,23 +140,30 @@
 
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
-        <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+        <a href="firefox_logo-only_RGB-120.png">
+          <img src = "firefox_logo-only_RGB-120.png" width = "400px" height = "120"/>
         </a>
-        <a href="https://www.mozilla.org/">
-          <img>
+        <a href="mozilla-dinosaur-head-120.png">
+          <img src = "mozilla-dinosaur-head-120.png"
+          width = "400px" height = "120"/>
         </a>
-        <a href="https://addons.mozilla.org/">
-          <img>
+        <a href="firefox-addons-120.jpg">
+          <img src = "firefox-addons-120.jpg"
+          width = "400px" height = "120"/>
         </a>
-        <a href="https://developer.mozilla.org/en-US/">
-          <img>
+        <a href="mdn.svg">
+          <img src = "mdn.svg"
+          width = "400px" height = "120"/>
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+            <source media="(max-width: 600px)" srcset="red-panda-portrait-small.jpg">
+            <img src="red-panda-landscape.jpg" alt="A red panda">
+       </picture>
       </div>
 
     </main>
