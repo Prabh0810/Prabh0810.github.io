@@ -52,14 +52,14 @@
     font-family: 'versity';
     src: url('varsity_regular.ttf') format('ttf');
   }
-  /* Apply body font to the whole page */
+
   html {
-    font-family: 'Texat', serif;
+    font-family: 'Texat', 'Times New Roman', Times, serif;
     font-size: 10px;
   }
   
   h1, h2 {
-    font-family: 'versity', sans-serif;
+    font-family: 'versity','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
   }
   
@@ -69,7 +69,7 @@
   }
   
   h2 {
-    font-size: 3.2rem;
+    font-size: 3rem;
   }
   
   section h2 + p {
@@ -79,18 +79,17 @@
   p, li {
     font-size: 1.6rem;
     line-height: 1.5;
-    letter-spacing: 0.5px;
-    word-spacing: 3px;
+    letter-spacing: 1.5px;
+    word-spacing: 4%;
   }
   
-  /* Link styling */
   
   a {
     outline: none;
   }
   
   a[href*="http"] {
-    padding-right: 19px;
+    padding-right: 20px;
     background: url(external-link-52.png) no-repeat 100% 0;
     background-size: 16px 16px;
   }
@@ -99,9 +98,7 @@
     color: #a66;
   }
   
-  a:focus, a:hover {
-    text-decoration: none;
-  }
+
   
   a:active {
     color: transparent;
@@ -111,8 +108,6 @@
                  0px 0px 4px black;
   }
   
-  /* lists: extra margin top and bottom to make it
-  always have the same spacing as with paragraphs */
   
   ul, ol {
     margin: 1.6rem 0;
@@ -126,11 +121,10 @@
     list-style-type: lower-latin;
   }
   
-  /* nav menu */
   
   nav ul {
     padding-left: 0;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
   }
   
   nav li {
@@ -139,12 +133,11 @@
   }
   
   nav li a {
-    text-decoration: none;
     display: inline-block;
     width: 100%;
     line-height: 3;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     border: 1px solid #a66;
   }
   
@@ -159,4 +152,3 @@
   }
   
   
-  /* WRITE YOUR CODE BELOW HERE */
