@@ -103,7 +103,7 @@ function loop() {
    for (const bouncingBall of balls) {
      bouncingBall.draw();
      bouncingBall.update();
-     bouncingBall.collisionDetect();
+    
    }
 
    requestAnimationFrame(loop);
